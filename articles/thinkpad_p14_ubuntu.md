@@ -1,6 +1,6 @@
 # Thinkpad P14s - Ubuntu 22.04
 
-This page documents installation and setup of Ubuntu 22.04 on Lenovo ThinkPad P14s Gen5 (21ME000DCK) with AMD processor.
+This page documents installation and setup of Ubuntu 22.04 on Lenovo ThinkPad P14s Gen5 (21ME000DCK) with AMD processor adn integrated GPU.
 
 ## TL;DR
 
@@ -21,8 +21,9 @@ All went surprisingly fine.
   * `docker`
   * `zsh` (`oh-my-zsh`) with `agnoster` theme
   * `fzf`
+  * `baobab`
 * Czech "coder" keyboard layout set up ([github repo](https://github.com/michalkahle/czech-coder-xkb)).
 
 # Unresolved issues
 
-* [] 
+* [ ] Customise touchpad gestures.
