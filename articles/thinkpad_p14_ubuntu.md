@@ -24,12 +24,12 @@ All went surprisingly fine.
   * `baobab`
 * Czech "coder" keyboard layout set up ([github repo](https://github.com/michalkahle/czech-coder-xkb)).
 
-# What worked (surprisingly) well
+## What worked (surprisingly) well
 
 * All HW drivers (but fingerprint sensor, see below) work out of the box (wifi, mic, camera, bluetooth, ...). GPU driver was easy to install.
 * Sleep mode uses reasonable amount of energy (< 1%/hour).
 
-# What worked bad
+## What worked bad
 
 * [ ] **Touchpad:** Touchpad gestures are limited, do not allow changing tabs/windows (3- vs 4-finger swipes).
 * [ ] **Fingerprint:** After adding second user, no more fingerprints are possible to be added for any user
