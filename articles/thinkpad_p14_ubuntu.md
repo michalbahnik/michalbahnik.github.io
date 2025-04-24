@@ -24,6 +24,12 @@ All went surprisingly fine.
   * `baobab`
 * Czech "coder" keyboard layout set up ([github repo](https://github.com/michalkahle/czech-coder-xkb)).
 
+## Update to Ubuntu 24.04
+
+* Nothing got broken.
+* GPU drivers reinstallation needed.
+* Battery life subjectively improved.
+
 ## What worked (surprisingly) well
 
 * All HW drivers (but fingerprint sensor, see below) work out of the box (wifi, mic, camera, bluetooth, ...). GPU driver was easy to install.
@@ -32,6 +38,6 @@ All went surprisingly fine.
 ## What worked bad
 
 * [ ] **Touchpad:** Touchpad gestures are limited, do not allow changing tabs/windows (3- vs 4-finger swipes).
-* [ ] **Fingerprint:** After adding second user, no more fingerprints are possible to be added for any user
+* [ ] **Fingerprint:** After adding second user, no more fingerprints are possible to be added for any user. Using command line seems to help.
 * [ ] **Monitor setup:** Monitor setup is not saved after restart and sometimes even after plug-out plug-in.
-* [ ] **Icon stacking:** Some apps do not stack in dock, when added to favourites.
+* [ ] **Icon stacking:** Some apps do not stack in dock, when added to favourites. Partially solved by creating _.desktop_ file.
