@@ -23,6 +23,7 @@ All went surprisingly fine.
   * `fzf`
   * `baobab`
 * Czech "coder" keyboard layout set up ([github repo](https://github.com/michalkahle/czech-coder-xkb)).
+* Various tips from [linux_fu](https://github.com/michalbahnik/linux_fu/blob/main/README.md) applied.
 
 ## Update to Ubuntu 24.04
 
