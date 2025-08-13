@@ -12,7 +12,7 @@ All went surprisingly fine.
 
 ## Setup
 
-* GPU drivers installed using [official AMD installation guide](https://amdgpu-install.readthedocs.io/en/latest/index.html).
+* GPU drivers installed using [official AMD installation guide](https://amdgpu-install.readthedocs.io/en/latest/index.html). ROCm works with Pytorch using [this guide]([url](https://rocm.docs.amd.com/projects/radeon/en/latest/docs/install/native_linux/install-pytorch.html#verify-pytorch-installation)).
 * Fingerprint scanner, microphone, speakers, camera etc. drivers work out-of-the-box (laptop hardware [certified](https://ubuntu.com/certified/202406-34087) to be Ubuntu compatible).
 * Installed apps/utils:
   * `terminator`
@@ -42,3 +42,5 @@ All went surprisingly fine.
 * [ ] **Fingerprint:** After adding second user, no more fingerprints are possible to be added for any user. Using command line seems to help.
 * [ ] **Monitor setup:** Monitor setup is not saved after restart and sometimes even after plug-out plug-in.
 * [ ] **Icon stacking:** Some apps do not stack in dock, when added to favourites. Partially solved by creating _.desktop_ file.
+* [ ] **Vivaldi:** Not optimised for Linux, regular problems with keyring.
+* [ ] **Occasional logouts:** SOmetimes, system logs out without a notice - maybe out-off-memory issue?
